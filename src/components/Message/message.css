@@ -1,0 +1,17 @@
+.Message
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 5px;
+
+    margin: 2rem;
+    padding: 3rem 0;
+}
+
+.message-container
+{
+    width: 75%;
+}

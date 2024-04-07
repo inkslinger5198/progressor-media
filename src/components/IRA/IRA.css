@@ -1,0 +1,120 @@
+.IRA
+{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 2rem;
+
+    margin: 7.5rem 0;
+}
+
+
+.IRA-toggle
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+.IRA-toggle button
+{
+    width: 100%;
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    background: var(--greyish);
+    border: 1px solid transparent;
+    color: var(--low);
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.IRA-toggle button:hover
+{
+    border-color:var(--blue);
+}
+
+.IRA .container-box
+{
+  background: none!important;
+  padding: 0;
+  border: none;
+}
+
+@media screen and (max-width:2560px) and (min-width:1850px) {
+  
+  .IRA-toggle button {
+    padding: 1.5rem 3rem;
+    font-size: 1.75rem;
+  }
+}
+
+@media screen and (max-width:1850px) and (min-width:1500px) {
+    .IRA-toggle
+    {
+      width: 70%;
+    }
+    .IRA-toggle button {
+        padding: 1.5rem 3rem;
+        font-size: 1.75rem;
+    }
+    }
+    
+
+@media screen and (max-width:1024px) {
+  .IRA-toggle
+  {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width:768px) {
+    .IRA-toggle
+    {
+      width: 80%;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .IRA-toggle
+    {
+      width: 100%;
+    }
+
+    .IRA-toggle button
+    {
+      padding: 0.75rem 1rem;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .IRA-toggle
+    {
+      width: 100%;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .IRA-toggle a
+    {
+        width: 80%;
+        
+    }
+
+    .IRA-toggle button
+    {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:400px) {
+  
+}
+
+@media screen and (max-width:320px) {
+  
+}

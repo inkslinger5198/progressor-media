@@ -1,0 +1,58 @@
+.thesis-containers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 4rem;
+}
+
+.thesis-container {
+  width: 45%;
+  margin-bottom: 4rem;
+}
+
+.thesis-container .container-box {
+  height: 20rem;
+  text-align: center !important;
+}
+
+@media screen and (max-width: 2560px) and (min-width: 1500px) {
+  .thesis-container .container-box {
+    height: 42.5rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .thesis-container .container-box {
+    height: 25rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .thesis-containers {
+    flex-wrap: wrap;
+  }
+  .thesis-container {
+    width: 75%;
+  }
+  .thesis-container .container-box {
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .thesis-container {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .thesis-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+}
